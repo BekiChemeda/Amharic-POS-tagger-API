@@ -4,3 +4,4 @@ sklearn-crfsuite
 pandas
 python-multipart
 slowapi
+pydantic-settings
