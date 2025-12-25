@@ -37,9 +37,10 @@ The server will start running at `http://localhost:8000`.
 ## 📖 API Documentation
 
 ### **POS Tagging Endpoint**
-**`POST /api/v1/tag`**
+**`POST https://amharic-pos-tagger-api.onrender.com/api/v1/tag`**
 
 Send a JSON body with the text you want to analyze:
+
 
 **Request:**
 ```json
@@ -61,21 +62,6 @@ Send a JSON body with the text you want to analyze:
 
 ## 🛡 Rate Limiting
 To ensure everyone gets a fair share of resources, we've set a default limit of **20 requests per minute**. If you hit this limit, you'll receive a `429 Too Many Requests` response.
-
----
-
-## 📂 Project Structure
-```text
-.
-├── app/
-│   ├── api/          # API endpoints (versioned)
-│   ├── core/         # Configuration and settings
-│   ├── services/     # Core logic (tokenizer & tagger)
-│   └── main.py       # App entry point
-├── tuned_crf_pos_tagger.pkl  # The magic model
-├── requirements.txt  # Dependencies
-└── README.md         # You are here!
-```
 
 ---
 
