@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+sklearn-crfsuite
+pandas
+python-multipart
+slowapi
